@@ -1,0 +1,94 @@
+body{
+    background-color: white; /* Definir cor de fundo */
+    color: black; /* Definir cor de texto */
+    max-width: 1900px; /* Largura maxima da pagina */
+    margin: 0 auto; /* Centralizar */
+    padding: 10px; /* Adicionar espaçamento */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Definir fonte do texto */
+    font-size: 110%; /* Tamanho da fonte */
+      
+
+}
+
+nav{
+    display: flex; /* Definir layout como flexbox */
+    flex-direction: row; /* Linha horizontal */
+    justify-content: space-between; /* Criar espaçamento entre os elementos */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    
+}
+
+main{
+    display: flex; /* Definir layout como flexbox */
+    flex-direction: row; /* Linha horizontal */
+    line-height: 2px; /* Altura das linhas de texto */
+    justify-content: space-between; /* Criar espaçamento entre os elementos */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    margin: 20px; /* Centralizar */
+
+}
+
+li{
+    display: inline-block; /* Definir layout como bloco */
+    flex-direction: row; /* Linha horizontal */
+    margin: 10px; /* Centralizar */
+}
+
+img{
+    display: flex; /* Definir layout como flexbox */
+    flex-direction: row; /* Linha horizontal */
+}
+
+a{
+    color: black; /* Definir cor de texto */
+    border: 2px solid; /* Cria uma borda ao redor do elemento */
+    padding: 15px; /* Adiciona espaço interno*/
+    border-radius: 10px; /* Arredonda os cantos da borda */
+
+}
+
+a:hover{
+    color:green; /* Definir cor de texto */
+}
+
+div{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Definir fonte do texto */
+    font-size: 300%; /* Tamanho da fonte */
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Definir fonte do texto */
+    font-size: 180%; /* Tamanho da fonte */
+}
+
+h4{
+    display: inline-block; /* Definir layout como bloco */
+}
+
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Definir fonte do texto */
+    font-size: 400%; /* Tamanho da fonte */
+    width: 100%; /* Define que a largura do elemento ocupará */
+    display: flex; /* Definir layout como flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente*/
+
+}
+
+form{
+    padding: 80px; /* Adiciona espaço interno*/
+    max-width: 500px; /* Largura maxima da pagina */
+    margin: 0 auto; /* Centralizar */
+    display: flex; /* Definir layout como flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-direction: column; /* Organiza em uma coluna */
+    gap: 10px; /* Adiciona um espaçamento */
+}
+
+textarea{
+    resize: none; /* Remove a capacidade do usuário de redimensionar */
+    max-width: 800px; /* Largura maxima da pagina */
+    margin: 0 auto; /* Centralizar */
+    padding: 120px; /* Adiciona espaço interno*/
+    
+}
